@@ -1,0 +1,203 @@
+body{
+    background: linear-gradient(to right, #00050e,#233b57,#396597, #84b2e7);
+}
+
+.topic{
+    margin: 10px;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    border-color: darkblue;
+    border-style: solid;
+    height: auto;
+    width: auto;
+    li{
+        display: inline-block;
+        color: #8f8e8e;
+    }
+    p{
+        font-size: 20px;
+        display: inline-block;
+        height: auto;
+        width: auto;
+        color: #f0f0f0;
+    }
+
+    h1{
+        display: block;
+        color: #f0f0f0;
+    }
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 10px ;
+        cursor: pointer;
+        height: auto;
+        width: auto;
+    }
+}
+
+.img{
+    text-align: center;
+    margin-top: 70px;
+    img{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: relative;
+        border-radius: 50% 20px;
+        border-color: darkblue;
+        border-style: solid ;
+    }
+}
+
+.about{
+    margin-top: 20px;
+    color: #f0f0f0;
+    background-color: #2d2d2d;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    list-style-type: disc;
+}
+
+.Contact{
+    display: inline-block;
+    width:100%;
+    height: auto;
+    text-align: center;
+    margin-top:10px ;
+    color: #f0f0f0;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    border-color: darkblue;
+    border-style: solid;
+    h3{
+        text-decoration: underline;
+    }
+}
+
+.github{
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0s;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius:0px;
+        border-color: darkblue;
+        border-style: solid ;
+    }
+}
+
+
+.linkedin{
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0s;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius:0px;
+        border-color: darkblue;
+        border-style: solid ;
+    }
+}
+
+.resume{
+    text-align: center;
+    h2{
+        font-size: 30px;
+        margin: 20px;
+        display: block;
+        background-color: #2d2d2d;
+        color: #f0f0f0;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: darkblue;
+    }
+}
+
+.resume-img{
+        padding: 20px;
+        img{
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: inline-block;
+            height: auto;;
+            margin: 20px;
+            border-radius: 10px;
+            border-color: darkblue;
+            border-style: solid;
+        }
+}
+
+.download-button{
+    color:#f0f0f0;
+    text-decoration: none;
+    content-visibility: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    border-radius: 50px;
+    border-color: darkblue;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.Achievement{
+    margin: 10px;
+    color: #f0f0f0;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    border-color: darkblue;
+    border-style: solid;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    
+}
+
+.hackathon{
+
+    margin: 10px;
+    color: #f0f0f0;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    border-color: darkblue;
+    border-style: solid;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    .hack1{
+        padding-left: 10px;
+        text-decoration: underline;
+    }
+}
+
+.certification{
+    margin: 10px;
+    color: #f0f0f0;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+    border-color: darkblue;
+    border-style: solid;
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+.href{
+    color: #8f8e8e;
+    text-decoration: none;
+}
+.href:hover{
+    color: #f0f0f0;
+    text-decoration: underline;
+}
