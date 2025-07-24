@@ -1,12 +1,12 @@
 body{
-    background: linear-gradient(to right, #00050e,#233b57,#396597, #84b2e7);
+    background: linear-gradient(to bottom, #00050e,#233b57,#396597, #84b2e7);
 }
 
 .topic{
     margin: 10px;
     background-color: #2d2d2d;
     border-radius: 20px;
-    border-color: darkblue;
+    border-color: rgba(4, 109, 255, 0.264);
     border-style: solid;
     height: auto;
     width: auto;
@@ -36,6 +36,14 @@ body{
     }
 }
 
+.name{
+    display: block;
+    color: #f0f0f0;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 .img{
     text-align: center;
     margin-top: 70px;
@@ -45,8 +53,8 @@ body{
         object-fit: cover;
         position: relative;
         border-radius: 50% 20px;
-        border-color: darkblue;
-        border-style: solid ;
+        border-color: rgba(4, 109, 255, 0.264);
+        border-style: solid;
     }
 }
 
@@ -58,6 +66,8 @@ body{
     height: 100%;
     width: 100%;
     border-radius: 20px;
+    border-color: rgba(4, 109, 255, 0.264);
+    border-style: solid;
     list-style-type: disc;
 }
 
@@ -70,7 +80,7 @@ body{
     color: #f0f0f0;
     background-color: #2d2d2d;
     border-radius: 20px;
-    border-color: darkblue;
+    border-color: rgba(4, 109, 255, 0.264);
     border-style: solid;
     h3{
         text-decoration: underline;
@@ -86,8 +96,8 @@ body{
         width: 50px;
         height: 50px;
         border-radius:0px;
-        border-color: darkblue;
-        border-style: solid ;
+        border-color: rgba(4, 109, 255, 0.264);
+        border-style: solid;
     }
 }
 
@@ -101,8 +111,8 @@ body{
         width: 50px;
         height: 50px;
         border-radius:0px;
-        border-color: darkblue;
-        border-style: solid ;
+        border-color: rgba(4, 109, 255, 0.264);
+        border-style: solid;
     }
 }
 
@@ -117,22 +127,22 @@ body{
         height: fit-content;
         width: fit-content;
         border-radius: 20px;
+        border-color: rgba(4, 109, 255, 0.264);
         border-style: solid;
-        border-color: darkblue;
     }
 }
 
 .resume-img{
-        padding: 20px;
+    padding-right: 50px;
         img{
             max-width: 100%;
             height: auto;
             object-fit: cover;
             display: inline-block;
-            height: auto;;
+            height: auto;
             margin: 20px;
             border-radius: 10px;
-            border-color: darkblue;
+            border-color: rgba(4, 109, 255, 0.264);
             border-style: solid;
         }
 }
@@ -146,8 +156,6 @@ body{
     padding: 10px 20px;
     background-color: purple;
     border-radius: 50px;
-    border-color: darkblue;
-    border-style: solid;
     cursor: pointer;
 }
 
@@ -156,7 +164,7 @@ body{
     color: #f0f0f0;
     background-color: #2d2d2d;
     border-radius: 20px;
-    border-color: darkblue;
+    border-color: rgba(4, 109, 255, 0.264);
     border-style: solid;
     display: inline-block;
     height: auto;
@@ -170,7 +178,7 @@ body{
     color: #f0f0f0;
     background-color: #2d2d2d;
     border-radius: 20px;
-    border-color: darkblue;
+    border-color: rgba(4, 109, 255, 0.264);
     border-style: solid;
     display: inline-block;
     height: auto;
@@ -186,7 +194,7 @@ body{
     color: #f0f0f0;
     background-color: #2d2d2d;
     border-radius: 20px;
-    border-color: darkblue;
+    border-color: rgba(4, 109, 255, 0.264);
     border-style: solid;
     display: inline-block;
     height: auto;
