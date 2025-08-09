@@ -168,7 +168,7 @@ body{
     border-style: solid;
     display: inline-block;
     height: auto;
-    width: 100%;
+    width: fit-content;
     
 }
 
