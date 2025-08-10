@@ -160,7 +160,6 @@ body{
 }
 
 .Achievement{
-    margin: 10px;
     color: #f0f0f0;
     background-color: #2d2d2d;
     border-radius: 20px;
@@ -168,7 +167,7 @@ body{
     border-style: solid;
     display: inline-block;
     height: auto;
-    width: fit-content;
+    width: 100%;
     
 }
 
